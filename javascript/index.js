@@ -5,6 +5,7 @@ let newYorkTime = moment()
 let londonTime = moment()
   .tz("Europe/London")
   .format("dddd, MMMM D, YYYY h:m A");
+let parisTime = moment().tz("Europe/Paris").format("dddd, MMMM D, YYYY h:m A");
 
 function displaySelectedCityTime(event) {
   if (event.target.value === "Asia/Tokyo") {
@@ -15,6 +16,9 @@ function displaySelectedCityTime(event) {
   }
   if (event.target.value === "Europe/London") {
     alert(`It is ${londonTime} in Europe/London`);
+  }
+  if (event.target.value === "Europe/Paris") {
+    alert(`It is ${parisTime} in Europe/Paris`);
   }
 }
 let citiesSelector = document.querySelector("#clocks");

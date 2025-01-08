@@ -9,16 +9,31 @@
     <title>World Timezone Clock by Valencia Cheung</title>
   </head>
   <body>
-    <form for="clock">
-      <select name="clocks" id="clocks">
-        <option value="">Select a city</option>
-        <option value="Asia/Tokyo" id="tokyo">Asia/Tokyo🇯🇵</option>
-        <option value="America/New_York" id="newyork">
-          America/New_York🗽
-        </option>
-        <option value="Europe/London" id="london">Europe/London🇬🇧</option>
-      </select>
-    </form>
+    <div class="container">
+      <h1>World Timezone Clock</h1>
+
+      <form for="clock">
+        <select name="clocks" id="clocks">
+          <option value="">Select a city</option>
+          <option value="Asia/Tokyo" id="tokyo">Asia/Tokyo🇯🇵</option>
+          <option value="America/New_York" id="newyork">
+            America/New_York🗽
+          </option>
+          <option value="Europe/London" id="london">Europe/London🇬🇧</option>
+          <option value="Europe/Paris" id="paris">Europe/Paris🇫🇷</option>
+        </select>
+      </form>
+
+      <div class="cities">
+        <h2>Tokyo🇯🇵</h2>
+        <div class="date" id="tokyo-date">January 8, 2025</div>
+        <div class="time" id="tokyo-time">14:55:23 PM</div>
+
+        <h2>New York🗽</h2>
+        <div class="date" id="newyork-date">January 8, 2025</div>
+        <div class="time" id="newyork-time">14:55:23 PM</div>
+      </div>
+    </div>
     <footer>
       This project is coded by
       <a href="https://github.com/ValenciaCheung" target="_blank">
