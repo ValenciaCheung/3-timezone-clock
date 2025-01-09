@@ -12,50 +12,48 @@
     <div class="container">
       <h1>World Timezone Clock</h1>
 
-      <form for="clock">
-        <select name="city" id="city">
-          <option value="">Select a city</option>
-          <option value="current" id="current">current location</option>
-          <option value="Asia/Tokyo" id="tokyo">Asia/Tokyo🇯🇵</option>
-          <option value="America/New_York" id="newyork">
-            America/New_York🗽
-          </option>
-          <option value="Europe/London" id="london">Europe/London🇬🇧</option>
-          <option value="Europe/Paris" id="paris">Europe/Paris🇫🇷</option>
-        </select>
-      </form>
+      <select id="city">
+        <option value="">Select a city</option>
+        <option value="current" id="current">current location</option>
+        <option value="Asia/Tokyo" id="tokyo">Asia/Tokyo🇯🇵</option>
+        <option value="America/New_York" id="newyork">
+          America/New_York🗽
+        </option>
+        <option value="Europe/London" id="london">Europe/London🇬🇧</option>
+        <option value="Europe/Paris" id="paris">Europe/Paris🇫🇷</option>
+      </select>
 
       <div id="cities">
         <div class="city" id="tokyo-city">
           <div>
             <h2>Tokyo🇯🇵</h2>
-            <div class="date" id="tokyo-date">January 8, 2025</div>
+            <div class="date" id="tokyo-date"></div>
           </div>
-          <div class="time" id="tokyo-time">14:55:23 <small>PM</small></div>
+          <div class="time" id="tokyo-time"></div>
         </div>
 
         <div class="city" id="newyork-city">
           <div>
             <h2>New York🗽</h2>
-            <div class="date" id="newyork-date">January 8, 2025</div>
+            <div class="date" id="newyork-date"></div>
           </div>
-          <div class="time" id="newyork-time">14:55:23 <small>PM</small></div>
+          <div class="time" id="newyork-time"></div>
         </div>
 
         <div class="city" id="london-city">
           <div>
             <h2>London🇬🇧</h2>
-            <div class="date" id="london-date">January 8, 2025</div>
+            <div class="date" id="london-date"></div>
           </div>
-          <div class="time" id="london-time">14:55:23 <small>PM</small></div>
+          <div class="time" id="london-time"></div>
         </div>
 
         <div class="city" id="paris-city">
           <div>
             <h2>Paris🇫🇷</h2>
-            <div class="date" id="paris-date">January 8, 2025</div>
+            <div class="date" id="paris-date"></div>
           </div>
-          <div class="time" id="paris-time">14:55:23 <small>PM</small></div>
+          <div class="time" id="paris-time"></div>
         </div>
       </div>
     </div>
