@@ -13,8 +13,9 @@
       <h1>World Timezone Clock</h1>
 
       <form for="clock">
-        <select name="clocks" id="clocks">
+        <select name="city" id="city">
           <option value="">Select a city</option>
+          <option value="current" id="current">current location</option>
           <option value="Asia/Tokyo" id="tokyo">Asia/Tokyo🇯🇵</option>
           <option value="America/New_York" id="newyork">
             America/New_York🗽
@@ -24,7 +25,7 @@
         </select>
       </form>
 
-      <div class="cities">
+      <div id="cities">
         <div class="city" id="tokyo-city">
           <div>
             <h2>Tokyo🇯🇵</h2>
