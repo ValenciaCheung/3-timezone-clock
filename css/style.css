@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
   margin: 0 0 5px;
-  font-size: 32px;
+  font-size: 30px;
 }
 select {
   display: block;
@@ -31,8 +31,13 @@ select {
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start; /* 对齐顶部 */
   padding: 20px;
   border-bottom: 1px dashed #c4c4c4;
+}
+
+.city > div {
+  text-align: left; /* 确保内容左对齐 */
 }
 .city:last-child {
   border-bottom: none;
@@ -45,9 +50,9 @@ select {
   font-weight: bold;
 }
 .time small {
-  font-size: 24px;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 32px;
+  line-height: 24px;
 }
 footer {
   text-align: center;
